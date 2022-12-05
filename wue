@@ -1,0 +1,105 @@
+Algoritmo "BEST PARTY"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : LENON
+// alunos: Alexia Neiva, João Wilson
+
+Var
+   i,alunos: INTEIRO
+   nome: caracter
+   Instituicao, feedback: caracter
+   Curso: caracter
+   Cidade: caracter
+   matricula: inteiro
+   Numero : inteiro
+   fimdafesta: caracter
+   desconto: inteiro
+   precodoconvite: inteiro
+   welcometotheparty, halloweenparty, partyoflegends, medievrau: caracter
+Inicio
+
+
+   enquanto fimdafesta <> "s" faca
+      escreva ("Nome:")
+      leia (nome)
+      escreval ("Institucao:")
+      leia (Instituicao)
+      escreva ("Curso:")
+      leia (Curso)
+      escreva ("Cidade:")
+      leia (Cidade)
+      escreva("digite matricula:")
+      leia (matricula)
+      escreva("desejo encerrar")
+      leia(fimdafesta)
+   fimenquanto
+   escreva(" escolha uma festa")
+   leia (Numero)
+   escolha Numero
+   caso 1
+      escreva("Welcome to the party")
+      leia(welcometotheparty)
+
+      escreva("preco do convite R$100")
+      leia(precodoconvite)
+
+      escreva("valor com desconto para UFTM R$95,00")
+
+   caso 2
+
+      escreva("party of legends")
+      leia(partyoflegends)
+      escreva("preco do convite R$150")
+      leia(precodoconvite)
+      escreva("valor com desconto para Uniube R$145,50")
+
+
+   caso 3
+
+
+
+      escreva("Halloween party")
+
+      leia(halloweenparty)
+      escreva("preco do convite R$180")
+      leia(precodoconvite)
+      escreva("valor com desconto para IFTM R$172,80")
+
+   caso 4
+
+
+
+      escreva("Medievrau")
+      leia(medievrau)
+
+      escreva("preco do convite R$80")
+      leia(precodoconvite)
+      escreva("valor com desconto para FAZU R$78,40")
+
+   outrocaso
+
+      escreva("invalido")
+
+   fimescolha
+   
+   
+   escreva("deixe o seu feedback aqui:")
+   leia(feedback)
+
+
+
+   se alunos > 20  entao
+
+      escreva ("ingressos esgotados")
+
+   senao
+
+      escreva("compra efetuada com sucesso")
+
+   Fimse
+
+
+
+
+
+
+Fimalgoritmo
